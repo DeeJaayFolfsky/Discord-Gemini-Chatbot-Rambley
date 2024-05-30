@@ -4,7 +4,7 @@ import dotenv
 dotenv.load_dotenv('.env')
 dotenv.load_dotenv('.env.development')
 
-GOOGLE_AI_KEY = AIzaSyDBO4eMc_iRDG8AwWyYdQayI6FKXHOdLgc
+GOOGLE_AI_KEY = os.getenv('GOOGLE_AI_KEY')
 DISCORD_BOT_TOKEN = MTI0NDc3NTEzMzEzMTA1MTEyMA.GJwWlR.V4ssgNpPJAF-fs_k1UwTdcED7Su8HYW7ZYkzLg
 
 tracked_channels = [
