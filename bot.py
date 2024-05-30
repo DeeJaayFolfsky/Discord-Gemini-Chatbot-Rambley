@@ -10,7 +10,7 @@ from typing import Optional, Dict
 import shelve
 
 #---------------------------------------------AI Configuration-------------------------------------------------
-genai.configure(api_key=GOOGLE_AI_KEY)
+genai.configure(api_key=AIzaSyDBO4eMc_iRDG8AwWyYdQayI6FKXHOdLgc)
 
 text_model = genai.GenerativeModel(model_name="gemini-pro", generation_config=text_generation_config, safety_settings=safety_settings)
 image_model = genai.GenerativeModel(model_name="gemini-pro-vision", generation_config=image_generation_config, safety_settings=safety_settings)
