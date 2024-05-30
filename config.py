@@ -5,7 +5,7 @@ dotenv.load_dotenv('.env')
 dotenv.load_dotenv('.env.development')
 
 GOOGLE_AI_KEY = os.getenv('AIzaSyDBO4eMc_iRDG8AwWyYdQayI6FKXHOdLgc')
-DISCORD_BOT_TOKEN = os.getenv('MTI0NDc3NTEzMzEzMTA1MT$$$EyMA.GJwWlR.V4ssgNpPJAF-fs_k1UwTdcED7Su8HYW7ZYkzLg')
+DISCORD_BOT_TOKEN = os.getenv('MTI0NDc3NTEzMzEzMTA1MTEyMA.GJwWlR.V4ssgNpPJAF-fs_k1UwTdcED7Su8HYW7ZYkzLg')
 
 tracked_channels = [
 	# channel_id_1,
